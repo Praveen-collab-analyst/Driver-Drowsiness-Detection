@@ -1,0 +1,13 @@
+# Requirements for Driver Drowsiness Detection (macOS)
+# Before installing, ensure you have Xcode Command Line Tools:
+#   xcode-select --install
+# And Homebrew (https://brew.sh/) to install cmake if needed:
+#   brew install cmake
+
+cmake
+scipy
+imutils
+dlib
+opencv-python==4.5.2.52
+playsound
+numpy
